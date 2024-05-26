@@ -1,0 +1,367 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/output.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+</head>
+<body class="bg-primary text-white overflow-x-hidden font-poppins">
+    <header class="flex justify-around relative md:justify-between py-4 md:px-16 md:items-center z-40 animate__animated animate__slideInDown w-full top-0 transition duration-200 ease-in">
+        <a href="#" class="font-bold uppercase md:text-xl">Fortgames</a>
+        <nav>
+            <ul class="flex flex-col md:flex-row absolute md:static top-14 translate-x-10 bg-[#1C140F] w-[154px] md:w-full px-3 py-2 gap-2 md:gap-4 md:items-center md:bg-transparent transition duration-200 ease-in opacity-0 md:opacity-100" id="nav-menu">
+                <li class="cursor-pointer font-medium hover:text-button uppercase">Home</li>
+                <li class="cursor-pointer font-medium hover:text-button uppercase">About Us</li>
+                <li class="cursor-pointer font-medium hover:text-button uppercase">Portofolio</li>
+                <li class="cursor-pointer font-medium hover:text-button uppercase">News</li>
+                <li class="bg-button cursor-pointer font-medium px-4 py-1 rounded-md  md:px-2 uppercase text-sm">Contact us</li>
+            </ul>
+            <div class="flex flex-col gap-1 cursor-pointer md:hidden " id="hamburger-menu">
+                <span class="block w-9 h-1 bg-white rounded-xl"></span>
+                <span class="block w-9 h-1 bg-white rounded-xl"></span>
+                <span class="block w-9 h-1 bg-white rounded-xl "></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Header Section End -->
+
+
+    <!-- Cursor -->
+    <!-- <div id="cursor1" class="hidden sm:block">  </div>
+    <div id="cursor2" class="hidden sm:block"></div>
+     -->
+    <!-- Hero Section Start -->
+    <section id="hero">
+        <div class="md:mt-14 mt-10 flex">
+            <div class="w-full px-5 flex relative mx-auto sm:w-[80%]">
+                <div class="z-20 animate__slideInLeft animate__animated">
+                    <h3 class="font-bold text-button text-xl sm:text-2xl md:text-3xl uppercase">Prepare for Action</h3>
+                    <h2 class="font-bold text-4xl lg:text-5xl max-w-72 sm:max-w-sm sm:text-5xl md:max-w-sm " data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400"
+                    >Work that we produce for our clients</h2>
+                    <p class="text-sm mt-3 max-w-xs sm:text-sm lg:text-md" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">Discover premium gaming experiences on our dynamic, exclusive platform.</p>
+
+                    <button class="bg-button px-5 py-2 rounded-xl mt-6 hover:bg-orange-600 hover:text-white transition duration-200 ease-in-out animate-faderight">Get More Details</button>
+                </div>
+                <!-- <span class="w-[500px] absolute h-full -bottom-36 -right-80 opacity-25 hidden md:block">
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#39298F" d="M35.5,-51.9C46.6,-48.1,56.5,-39.2,63.5,-27.8C70.4,-16.5,74.4,-2.6,71,9C67.5,20.7,56.5,30.1,47.6,42.4C38.7,54.7,31.8,69.9,19.7,78.6C7.7,87.3,-9.7,89.6,-20.8,81.4C-31.9,73.3,-36.8,54.7,-42.6,40.9C-48.5,27.1,-55.3,18,-60.1,6.6C-64.9,-4.8,-67.6,-18.4,-65.6,-32.9C-63.6,-47.4,-56.9,-62.7,-45.2,-66.3C-33.4,-69.8,-16.7,-61.6,-2.3,-58.1C12.2,-54.6,24.4,-55.8,35.5,-51.9Z" transform="translate(100 100)" />
+                      </svg>
+                </span>
+                <span class="w-[300px] absolute h-full -bottom-28 -left-56 opacity-25 hidden md:block">
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#39298F" d="M48,-53.7C63.1,-44.6,76.8,-30.3,75.9,-16.2C75.1,-2,59.9,11.9,49.6,27.7C39.4,43.6,34.1,61.5,22.4,69.1C10.6,76.7,-7.7,74,-25.7,68.4C-43.7,62.8,-61.5,54.3,-72.6,39.7C-83.7,25.1,-88.1,4.4,-85,-15.4C-82,-35.1,-71.5,-53.9,-56.1,-62.9C-40.7,-71.9,-20.3,-71.1,-1.9,-68.8C16.5,-66.5,33,-62.7,48,-53.7Z" transform="translate(100 100)" />
+                      </svg>
+                </span> -->
+                <img src="../assets/hero.png" alt="" class="max-w-lg rotate-180 absolute right-0 bottom-0 hidden sm:block animate-fadeleft space-x-4">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Hero Section End -->
+
+    <!-- Trending Section Start -->
+
+    <section id="trending">
+        <div class="mt-14">
+            <div class="w-full px-5 sm:w-[80%] mx-auto">
+                <div class="flex justify-between items-center animate__slideInUp animate__animated">
+                    <h2 class="font-bold text md:text-2xl lg:text-3xl">Currently Trending Games</h2>
+                    <a href="#" class="bg-white text-button font-bold text-sm md:text-lg px-6 py-1 rounded-lg md:py-2 md:px-8 ">SEE ALL</a>
+                </div>
+                <div class="grid lg:grid-cols-4 grid-cols-2  my-10 justify-center items-center gap-y-5 gap-x-2">
+                    <div class="mt-3 mx-auto lg:h-40" data-aos="fade-up" data-aos-delay="200">
+                        <div class="md:w-52 md:h-52 w-36 h-36 lg:w-44 lg:h-44 xl:w-52 xl:h-52  cursor-pointer overflow-hidden rounded-xl mx-auto relative  group">
+                            <img src="../assets/g-6.jpg" alt="" class="w-full h-full block z-10 absolute">
+                            <div class="bg-transparent w-full h-full absolute translate-y-[200px] group-hover:translate-y-0 transition duration-200 ease-in z-20 after:content-[''] after:absolute after:bg-black after:w-full after:h-full after:z-30 after:opacity-30 after:inset-0">
+                                <div class="relative z-50 flex justify-center items-center flex-col w-full h-full">
+                                    <h3 class="text-sm text-center max-w-xs md:max-w-[90%] md:text-xl lg:text-lg xl:text-xl font-bold">Mobile Legends: Bang Bang</h3>
+                                    <p class="text-lg">MOBA</p>
+                                    <button class="bg-button px-2 md:px-4 md:py-1 rounded-md mt-1 hover:bg-yellow-500">MORE!</button>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="font-bold text-center mt-3 text-sm max-w-[70%] mx-auto">Mobile Legends: Bang Bang</h3>
+                    </div>
+                    <div class="mt-3 mx-auto lg:h-40" data-aos-delay="300" data-aos="fade-up">
+                        <div class="md:w-52 md:h-52 w-36 h-36 lg:w-44 lg:h-44 xl:w-52 xl:h-52  cursor-pointer mx-auto overflow-hidden rounded-xl relative group" >
+                            <img src="../assets/g-8.jpg" alt="" class="w-full h-full block z-10 absolute">
+                            <div class="bg-transparent w-full h-full absolute translate-y-[200px] group-hover:translate-y-0 transition duration-200 ease-in z-20 after:content-[''] after:absolute after:bg-black after:w-full after:h-full after:z-30 after:opacity-30 after:inset-0">
+                                <div class="relative z-50 flex justify-center items-center flex-col w-full h-full">
+                                    <h3 class="text-sm text-center max-w-xs md:max-w-[90%] md:text-xl lg:text-lg xl:text-xl font-bold">PlayerUnknown's Battlegrounds</h3>
+                                    <p class="text-md uppercase">Battle Royale</p>
+                                    <button class="bg-button px-2 md:px-4 md:py-1 rounded-md mt-1 hover:bg-yellow-500">MORE!</button>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="font-bold text-center mt-3 max-w-[70%]  text-sm mx-auto">PlayerUnknown's Battlegrounds</h3>
+                    </div>
+                    <div class="mt-3 mx-auto lg:h-40" data-aos-delay="400" data-aos="fade-up">
+                        <div class="md:w-52 md:h-52 w-36 h-36 lg:w-44 lg:h-44 xl:w-52 xl:h-52  cursor-pointer mx-auto overflow-hidden rounded-xl relative group">
+                            <img src="../assets/g-7.jpg" alt="" class="w-full h-full block z-10 absolute">
+                            <div class="bg-transparent w-full h-full absolute translate-y-[200px] group-hover:translate-y-0 transition duration-200 ease-in z-20 after:content-[''] after:absolute after:bg-black after:w-full after:h-full after:z-30 after:opacity-30 after:inset-0">
+                                <div class="relative z-50 flex justify-center items-center flex-col w-full h-full">
+                                    <h3 class="text-sm text-center max-w-xs md:max-w-[90%] md:text-xl lg:text-lg xl:text-xl font-bold">League of Legends</h3>
+                                    <p class="text-md uppercase">MOBA</p>
+                                    <button class="bg-button px-2 md:px-4 md:py-1 rounded-md mt-1 hover:bg-yellow-500">MORE!</button>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="font-bold text-center mt-3 text-sm">League of Legends</h3>
+                    </div>
+                    <div class="mt-3 mx-auto lg:h-40" data-aos-delay="500" data-aos="fade-up">
+                        <div class="md:w-52 md:h-52 w-36 h-36 lg:w-44 lg:h-44 xl:w-52 xl:h-52  cursor-pointer mx-auto overflow-hidden rounded-xl relative group" >
+                            <img src="../assets/g-9.jpg" alt="" class="w-full h-full block z-10 absolute">
+                            <div class="bg-transparent w-full h-full absolute translate-y-[200px] group-hover:translate-y-0 transition duration-200 ease-in z-20 after:content-[''] after:absolute after:bg-black after:w-full after:h-full after:z-30 after:opacity-30 after:inset-0">
+                                <div class="relative z-50 flex justify-center items-center flex-col w-full h-full">
+                                    <h3 class="text-sm text-center max-w-xs md:max-w-[90%] md:text-xl lg:text-lg xl:text-xl font-bold">It Takes Two</h3>
+                                    <p class="text-md uppercase">cooperative </p>
+                                    <button class="bg-button px-2 md:px-4 md:py-1 rounded-md mt-1 hover:bg-yellow-500">MORE!</button>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="font-bold text-center mt-3 text-sm">It Takes Two</h3>
+                    </div>
+                </div>
+                <div class="text-center text-xl md:text-3xl font-bold max-w-xl mx-auto mt-20 lg:mt-48 mb-24 lg:mb-28 h-9" data-aos="fade-right">
+                    Stay ahead of the curve and dive into the excitement today!
+                </div>
+
+                <div class="mt-10">
+                    <div data-aos="fade-right" data-aos-delay="300">
+                        <h3 class="font-bold">Experience the Latest Gaming Trend.</h3>
+                        <p class="text-sm mt-3 max-w-md">Embark on a thrilling journey with our top trending game. Don't miss out on the excitement play now!"</p>
+                    </div>
+                    <div class="rounded-xl overflow-hidden mt-5 h-[200px] max-h-[400px] md:h-[300px] lg:h-[400px] relative group" data-aos="fade-up">
+                        <img src="../assets/g-cyber.jpg" alt="" class="w-full h-full block z-10 absolute">
+                        <div class="bg-transparent w-full h-full absolute opacity-0 group-hover:opacity-100 transition duration-200 ease-in z-20 after:content-[''] after:absolute after:bg-black after:w-full after:h-full after:z-30 after:opacity-30 after:inset-0">
+                            <div class="relative z-50 flex justify-center items-center flex-col w-full h-full gap-2">
+                                <h3 class="text-sm text-center max-w-xs md:max-w-[90%] md:text-xl lg:text-2xl xl:text-4xl font-bold">Cyberpunk 2077</h3>
+                                <p class="text-md uppercase md:text-2xl">action</p>
+                                <button class="bg-button px-4 md:px-8 md:py-1 rounded-md mt-1 hover:bg-yellow-500 uppercase">More!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Trending Section End -->
+
+    <!-- Category Section Start -->
+
+    <section id="category">
+        <div class="pt-16">
+            <div class="w-full lg:max-h-[700px] bg-[url('../assets/g-11.jpg')] bg-fixed filter relative">
+                <div class="w-full h-full bg-black opacity-65 absolute"></div>
+                <div class="relative w-full sm:w-[80%] filter mx-auto py-20 px-5">
+                    <h3 class="text-white font-bold text-xl md:text-3xl text-center pt-4 sm:max-w-xl mx-auto" data-aos="fade-down">Discover an Abundance of Gaming Options in Our Diverse World.</h3>
+                    <p class="text-sm sm:max-w-xl mx-auto text-center mt-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Explore a Vast Array of Game Categories: Uncover Adventures, Challenges, and Endless Excitement Awaits in Every Click.</p>
+                    <div class="grid grid-cols-2 md:grid-cols-4 justify-center my-10 gap-5 items-center gap-y-10 py-10">
+                        <div class="flex flex-col gap-y-2" data-aos="fade-up">
+                            <span class="mx-auto bg-white cursor-pointer rounded-full py-2 px-2"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill: #FA9021;"><circle cx="17" cy="4" r="2"></circle><path d="M15.777 10.969a2.007 2.007 0 0 0 2.148.83l3.316-.829-.483-1.94-3.316.829-1.379-2.067a2.01 2.01 0 0 0-1.272-.854l-3.846-.77a1.998 1.998 0 0 0-2.181 1.067l-1.658 3.316 1.789.895 1.658-3.317 1.967.394L7.434 17H3v2h4.434c.698 0 1.355-.372 1.715-.971l1.918-3.196 5.169 1.034 1.816 5.449 1.896-.633-1.815-5.448a2.007 2.007 0 0 0-1.506-1.33l-3.039-.607 1.772-2.954.417.625z"></path></svg></span>
+                            <h3 class="text-center">Action</h3>
+                            <a href="#" class="block mx-auto"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="fill:#FA9021;"><path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path></svg></a>
+                        </div>
+                        <div class=" flex flex-col gap-y-2" data-aos="fade-up" data-aos-delay="100">
+                            <span class="mx-auto bg-white cursor-pointer rounded-full py-2 px-2"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill: #FA9021;;"><path d="M3 20h18a1 1 0 0 0 .864-1.504l-7-12c-.359-.615-1.369-.613-1.729 0L9.866 12.1l-1.02-1.632A.998.998 0 0 0 8 10h-.001a1 1 0 0 0-.847.47l-5 8A1 1 0 0 0 3 20zM14 8.985 19.259 18h-5.704l-2.486-3.987L14 8.985zm-5.999 3.9L11.197 18H4.805l3.196-5.115zM6 8c1.654 0 3-1.346 3-3S7.654 2 6 2 3 3.346 3 5s1.346 3 3 3zm0-4a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path></svg></span>
+                            <h3 class="text-center">Adventure</h3>
+                             <a href="#" class="block mx-auto"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="fill:#FA9021;"><path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path></svg></a>
+                        </div>
+                        <div class="flex flex-col gap-y-2" data-aos="fade-up" data-aos-delay="200">
+                            <span class="mx-auto bg-white cursor-pointer rounded-full py-2 px-2"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill: #FA9021;"><path d="M8 12c2.28 0 4-1.72 4-4s-1.72-4-4-4-4 1.72-4 4 1.72 4 4 4zm0-6c1.178 0 2 .822 2 2s-.822 2-2 2-2-.822-2-2 .822-2 2-2zm1 7H7c-2.757 0-5 2.243-5 5v1h2v-1c0-1.654 1.346-3 3-3h2c1.654 0 3 1.346 3 3v1h2v-1c0-2.757-2.243-5-5-5zm9.364-10.364L16.95 4.05C18.271 5.373 19 7.131 19 9s-.729 3.627-2.05 4.95l1.414 1.414C20.064 13.663 21 11.403 21 9s-.936-4.663-2.636-6.364z"></path><path d="M15.535 5.464 14.121 6.88C14.688 7.445 15 8.198 15 9s-.312 1.555-.879 2.12l1.414 1.416C16.479 11.592 17 10.337 17 9s-.521-2.592-1.465-3.536z"></path></svg></span>
+                            <h3 class="text-center">Strategy</h3>
+                             <a href="#" class="block mx-auto"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="fill:#FA9021;"><path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path></svg></a>
+                        </div>
+                        <div class="flex flex-col gap-y-2" data-aos="fade-up" data-aos-delay="300">
+                            <span class="mx-auto bg-white cursor-pointer rounded-full py-2 px-2"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill: #FA9021;"><path d="M21.986 9.74a3.193 3.193 0 0 0-.008-.088A5.003 5.003 0 0 0 17 5H7a4.97 4.97 0 0 0-4.987 4.737c-.01.079-.013.161-.013.253v6.51c0 .925.373 1.828 1.022 2.476A3.524 3.524 0 0 0 5.5 20c1.8 0 2.504-1 3.5-3 .146-.292.992-2 3-2 1.996 0 2.853 1.707 3 2 1.004 2 1.7 3 3.5 3 .925 0 1.828-.373 2.476-1.022A3.524 3.524 0 0 0 22 16.5V10c0-.095-.004-.18-.014-.26zM7 12.031a2 2 0 1 1-.001-3.999A2 2 0 0 1 7 12.031zm10-5a1 1 0 1 1 0 2 1 1 0 1 1 0-2zm-2 4a1 1 0 1 1 0-2 1 1 0 1 1 0 2zm2 2a1 1 0 1 1 0-2 1 1 0 1 1 0 2zm2-2a1 1 0 1 1 0-2 1 1 0 1 1 0 2z"></path></svg></span>
+                            <h3 class="text-center">Simulation</h3>
+                             <a href="#" class="block mx-auto"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="fill:#FA9021;"><path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path></svg></a>
+                        </div>
+                        <div class="flex flex-col gap-y-2 md:col-start-2" data-aos="fade-up" data-aos-delay="400">
+                            <span class="mx-auto bg-white cursor-pointer rounded-full py-2 px-2"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill: #FA9021;"><path d="M19 10V7c0-1.103-.897-2-2-2h-3c0-1.654-1.346-3-3-3S8 3.346 8 5H5c-1.103 0-2 .897-2 2v3.881l.659.239C4.461 11.41 5 12.166 5 13s-.539 1.59-1.341 1.88L3 15.119V19c0 1.103.897 2 2 2h3.881l.239-.659C9.41 19.539 10.166 19 11 19s1.59.539 1.88 1.341l.239.659H17c1.103 0 2-.897 2-2v-3c1.654 0 3-1.346 3-3s-1.346-3-3-3zm0 4h-2l-.003 5h-2.545c-.711-1.22-2.022-2-3.452-2s-2.741.78-3.452 2H5v-2.548C6.22 15.741 7 14.43 7 13s-.78-2.741-2-3.452V7h5V5a1 1 0 0 1 2 0v2h5v5h2a1 1 0 0 1 0 2z"></path></svg></span>
+                            <h3 class="text-center">Puzzle</h3>
+                             <a href="#" class="block mx-auto"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="fill:#FA9021;"><path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path></svg></a>
+                        </div>
+                        <div class="flex flex-col gap-y-2" data-aos="fade-up" data-aos-delay="500">
+                            <span class="mx-auto bg-white cursor-pointer rounded-full py-2 px-2"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill:#FA9021;"><path d="M12 22c3.719 0 7.063-2.035 8.809-5.314L13 12l7.809-4.686C19.063 4.035 15.719 2 12 2 6.486 2 2 6.486 2 12s4.486 10 10 10zm-.5-16a1.5 1.5 0 1 1-.001 3.001A1.5 1.5 0 0 1 11.5 6z"></path></svg></span>
+                            <h3 class="text-center">Casual</h3>
+                             <a href="#" class="block mx-auto"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="fill:#FA9021;"><path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path></svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Section end -->
+
+    <!-- Project Section Start -->
+
+    <section id="project">
+        <div class="py-12 sm:py-14 mx-auto">
+            <div class="w-full px-5 sm:w-[80%] mx-auto">
+                <h3 class="text-2xl font-bold text-center md:text-3xl" data-aos="fade-in" data-aos-duration="700">Our Rencent Projects</h3>
+                <p class="text-base text-center my-7 md:text-sm" data-aos="fade-up" data-aos-duration="800">Unveiling Our Latest Project: Innovation, Excellence, and Boundless Possibilities Await</p>
+
+                <div class="grid gap-2 mt-5 grid-cols-2 sm:grid-cols-4 lg:grid-cols-6" data-aos="fade-right" data-aos-duration="700">
+                    <div class="bg-blue-500 rounded-2xl h-32 lg:col-span-2 bg-[url('../assets/g-1.jpg')] bg-cover bg-center relative group overflow-hidden">
+                        <div class="bg-transparent w-full h-full absolute translate-y-[200px] group-hover:translate-y-0 transition duration-200 ease-in z-20 after:content-[''] after:absolute after:bg-black after:w-full after:h-full after:z-30 after:opacity-30 after:inset-0">
+                            <div class="relative z-50 flex justify-center items-center flex-col w-full h-full">
+                                <h3 class="text-sm text-center max-w-xs md:max-w-[90%] md:text-xl lg:text-lg xl:text-xl font-bold">Age of Empire</h3>
+                                <p class="text-md uppercase">strategy</p>
+                                <button class="bg-button px-2 md:px-4 md:py-1 rounded-md mt-1 hover:bg-yellow-500">MORE!</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-[url('../assets/g-2.jpg')] bg-cover bg-center rounded-2xl h-32 lg:col-span-2 sm:col-span-2 relative group overflow-hidden">
+                        <div class="bg-transparent w-full h-full absolute translate-y-[200px] group-hover:translate-y-0 transition duration-200 ease-in z-20 after:content-[''] after:absolute after:bg-black after:w-full after:h-full after:z-30 after:opacity-30 after:inset-0">
+                            <div class="relative z-50 flex justify-center items-center flex-col w-full h-full">
+                                <h3 class="text-sm text-center max-w-[70%] md:max-w-[90%] md:text-xl lg:text-lg xl:text-xl font-bold">Mobile Legends: Bang Bang</h3>
+                                <p class="text-md uppercase">moba</p>
+                                <button class="bg-button px-2 md:px-4 md:py-1 rounded-md mt-1 hover:bg-yellow-500">MORE!</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-[url('../assets/g-3.jpg')] bg-cover bg-center rounded-2xl h-32 lg:col-span-2 sm:row-span-2 lg:row-span-1 sm:h-full lg:h-32 relative group overflow-hidden">
+                        <div class="bg-transparent w-full h-full absolute translate-y-[200px] group-hover:translate-y-0 transition duration-200 ease-in z-20 after:content-[''] after:absolute after:bg-black after:w-full after:h-full after:z-30 after:opacity-30 after:inset-0">
+                            <div class="relative z-50 flex justify-center items-center flex-col w-full h-full">
+                                <h3 class="text-sm text-center max-w-xs md:max-w-[90%] md:text-xl lg:text-lg xl:text-xl font-bold">Thronebreaker: The Witcher Tales</h3>
+                                <p class="text-md uppercase">RPG</p>
+                                <button class="bg-button px-2 md:px-4 md:py-1 rounded-md mt-1 hover:bg-yellow-500">MORE!</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-[url('../assets/g-4.jpg')] bg-cover bg-center rounded-2xl h-32 sm:col-span-2 lg:col-span-1 relative group overflow-hidden">
+                        <div class="bg-transparent w-full h-full absolute translate-y-[200px] group-hover:translate-y-0 transition duration-200 ease-in z-20 after:content-[''] after:absolute after:bg-black after:w-full after:h-full after:z-30 after:opacity-30 after:inset-0">
+                            <div class="relative z-50 flex justify-center items-center flex-col w-full h-full">
+                                <h3 class="text-sm text-center max-w-[70%] md:text-xl md:max-w-[90%] lg:text-sm font-bold">Assassin's Creed: Shadows</h3>
+                                <p class="text-md uppercase">Action</p>
+                                <button class="bg-button px-2 md:px-4 md:py-1 rounded-md mt-1 hover:bg-yellow-500">MORE!</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-[url('../assets/g-5.jpg')] bg-cover bg-center rounded-2xl h-32 lg:col-span-3 relative group overflow-hidden">
+                        <div class="bg-transparent w-full h-full absolute translate-y-[200px] group-hover:translate-y-0 transition duration-200 ease-in z-20 after:content-[''] after:absolute after:bg-black after:w-full after:h-full after:z-30 after:opacity-30 after:inset-0">
+                            <div class="relative z-50 flex justify-center items-center flex-col w-full h-full">
+                                <h3 class="text-sm text-center max-w-xs md:max-w-[90%] md:text-xl lg:text-lg xl:text-xl font-bold">MudRunner</h3>
+                                <p class="text-md uppercase">Simulation</p>
+                                <button class="bg-button px-2 md:px-4 md:py-1 rounded-md mt-1 hover:bg-yellow-500">MORE!</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-[url('../assets/g-10.jpg')] bg-cover bg-center sm:bg-top rounded-2xl h-32 lg:col-span-2 sm:col-span-4 relative group overflow-hidden">
+                        <div class="bg-transparent w-full h-full absolute translate-y-[200px] group-hover:translate-y-0 transition duration-200 ease-in z-20 after:content-[''] after:absolute after:bg-black after:w-full after:h-full after:z-30 after:opacity-30 after:inset-0">
+                            <div class="relative z-50 flex justify-center items-center flex-col w-full h-full">
+                                <h3 class="text-sm text-center max-w-xs md:max-w-[90%] md:text-xl lg:text-lg xl:text-xl font-bold">Grand Theft Auto V </h3>
+                                <p class="text-md uppercase">action-adventure</p>
+                                <button class="bg-button px-2 md:px-4 md:py-1 rounded-md mt-1 hover:bg-yellow-500">MORE!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="block bg-white w-1/3 md:w-[100px] mx-auto mt-3 py-1 md:py-2 rounded-lg text-slate-700 text-center font-bold uppercase" data-aos="fade-up" data-aos-duration="700">See all</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Project Section End -->
+
+
+    <!-- News Section Start -->
+
+    <section id="news">
+        <div class="px-5 w-full mt-10 md:mt-4 sm:w-[80%] mx-auto">
+            <div>
+                <div data-aos="fade-right" data-aos-duration="700">
+                <h3 class="font-bold text-xl md:text-3xl">Get Connected</h3>
+                <p class="text-sm md:text-base max-w-md mt-2">Stay in the know with our newsletter. Get the latest updates on new releases. Subscribe now for exclusive content!</p>
+            </div>
+                <div class="bg-black py-3 px-4 rounded-xl mt-7 md:mt-4 grid md:grid-cols-2 justify-around items-center row-gap-3" data-aos="fade-up" data-aos-duration="700">
+                    <div class="">
+                        <h2 class="font-semibold text-xl md:text-3xl">Stay in the Loop</h2>
+                        <p class="text-xs max-w-sm sm:max-w-xs md:max-w-[85%]">Subscribe to receive the latest news and updates about TDA.
+                            We promise not to spam you! </p>
+                    </div>
+                    <div class="w-full mt-3 relative flex justify-center items-center bg-white">
+                        <input type="text" class="w-full py-1 my-1 md:my-0 sm:my-0.5 sm:py-2 px-3 focus:outline-none text-black bg-transparent placeholder:md:text-sm" placeholder="Enter Email addess">
+                        <button class="bg-button text-white focus:outline-none px-3 rounded-md mr-1 py-1">Continue</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section End -->
+
+    <!-- Footer Section Start -->
+
+    <Footer id="footer" class="bg-black mt-20">
+        <div class="w-full px-5 sm:w-[90%] mx-auto flex flex-col gap-3 sm:grid lg:grid-cols-4 sm:grid-cols-2 py-7">
+            <div class="flex flex-col justify-between gap-1 items-center md:items-start">
+                <h3 class="font-bold text-2xl uppercase cursor-pointer" id="title">fortgames</h3>
+                <p class="text-xs max-w-[220px] text-center md:text-left">Our company prioritizes excellence and innovation, consistently striving to exceed customer expectations.</p>
+                <a href="#" class="block">@logo</a>
+            </div>
+            <div class="flex flex-col items-center sm:items-start">
+                <h3 class="text-xl font-semibold uppercase">About Us</h3>
+                <a href="#" class="block text-lg">Zeux</a>
+                <a href="#" class="text-lg block">Portfolio
+                </a>
+                <a href="#" class="text-lg block">Careers
+                </a>
+            </div>
+            <div class="flex flex-col gap-2 items-center sm:items-start">
+                <h3 class="text-xl font-semibold uppercase">Contact Us</h3>
+                <p class="max-w-[220px] text-center sm:text-left text-xs">For inquiries or assistance, don't hesitate to reach out to us. Contact our team we're here to help!</p>
+                <p class="text-sm">+908 89097 890</p>
+            </div>
+            <div class="flex lg:items-end h-full justify-center sm:justify-start">
+                <!-- Youtube -->
+                <a href="https://www.google.com" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-white hover:text-black">
+                    <svg role="img" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="fill-current"><title>YouTube</title><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                </a>
+
+                                        <!-- instagram -->
+                <a href="https://www.instagram.com/dandysultana" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-white hover:text-black">
+                    <svg role="img" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="fill-current"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg>
+                </a>
+
+                    <!--twitter -->
+                    <a href="https://www.twitter.com" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-white hover:text-black">
+                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20" class="fill-current"><title>Twitter</title><path d="M21.543 7.104c.015.211.015.423.015.636 0 6.507-4.954 14.01-14.01 14.01v-.003A13.94 13.94 0 0 1 0 19.539a9.88 9.88 0 0 0 7.287-2.041 4.93 4.93 0 0 1-4.6-3.42 4.916 4.916 0 0 0 2.223-.084A4.926 4.926 0 0 1 .96 9.167v-.062a4.887 4.887 0 0 0 2.235.616A4.928 4.928 0 0 1 1.67 3.148 13.98 13.98 0 0 0 11.82 8.292a4.929 4.929 0 0 1 8.39-4.49 9.868 9.868 0 0 0 3.128-1.196 4.941 4.941 0 0 1-2.165 2.724A9.828 9.828 0 0 0 24 4.555a10.019 10.019 0 0 1-2.457 2.549z"/></svg>
+                    </a>
+
+                <!-- Instagram -->
+                    <a href="https://www.instagram.com/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-white hover:text-black">
+                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20" class="fill-current"><title>TikTok</title><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+                    </a>
+                   
+
+            </div>
+        </div>
+        <div class="text-center mt-5 py-2 border-t-2 text-xs sm:text-sm">Copyright ® 2022 prodesigner All rights Rcerved</div>
+    </Footer>
+
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
