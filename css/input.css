@@ -19,7 +19,7 @@
  }
  
  .nav-active {
-   @apply  -translate-x-14 sm:-translate-x-10 opacity-[100%] 
+   @apply  opacity-[100%] 
  }
 
  .navbar-fixed {
